@@ -1,0 +1,182 @@
+#headComp {
+    background-color: var(--color-bg-variant);
+    padding: .5em 0;
+}
+
+.headerMain {
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+}
+
+.headerMain .headerInner1 {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    min-height: 3em;
+}
+
+.headerMain .headerInner1 .headerTitle {
+    display: flex;
+    /* border: 1px solid blue; */
+    min-width: 26.5%;
+    display: flex;
+    align-items: center;
+}
+
+.headerMain .headerInner1 .headerTitle:nth-child(2) {
+    /* border: 1px solid red; */
+    min-width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.headerMain .headerInner1 .headerTitle:first-child {
+    display: flex;
+    /* border: 1px solid orange; */
+    min-width: 7%;
+    display: flex;
+    align-items: center;
+}
+
+.headerMain .headerInner2 {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 100%;
+    min-height: 2em;
+}
+
+.headerMain .headerInner2 .headerTitle {
+    display: flex;
+    /* border: 1px solid blue; */
+    min-width: 26.5%;
+    display: flex;
+    align-items: center;
+}
+
+.headerMain .headerInner2 .headerTitle:nth-child(2) {
+    /* border: 1px solid red; */
+    min-width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.headerMain .headerInner2 .headerTitle:first-child {
+    display: flex;
+    /* border: 1px solid orange; */
+    min-width: 7%;
+    display: flex;
+    align-items: center;
+}
+
+.headerTitle h5 {
+    font-size: .9rem;
+    font-weight: 400;
+    max-width: 80%;
+    /* border: 1px solid green; */
+}
+
+table tr:nth-child(odd) {
+    background-color: var(--color-bg);
+}
+
+table tr:nth-child(even) {
+    background-color: var(--color-bg-variant);
+}
+
+
+
+/* SELECTED STOCKS */
+.selectedTableHeader {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg);
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
+
+.SelectedTableThree {
+    background-color: var(--color-bg);
+    /* border: 2px solid orange; */
+}
+
+
+.tableSelected {
+    width: 100%;
+    /* border: 1px solid yellow; */
+}
+
+.tableSelected .thead {
+    width: 100%;
+    display: flex;
+}
+
+.tableSelected .thead .theader {
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.tableSelected .thead .theader:first-child {
+    width: 7%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+.tableSelected .thead .theader:nth-child(2) {
+    width: 33%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+.tablebody .content {
+    width: 20%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    min-height: 3em;
+}
+
+.reactIcon {
+    font-size: 1.3rem;
+}
+
+.tablebody .content:first-child {
+    width: 7%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.tablebody .content:nth-child(2) {
+    width: 33%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.tablebody .content input {
+    width: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+}
+
+.tableSelected h4 {
+    font-size: .95rem;
+    font-weight: 400;
+    max-width: 80%;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid green; */
+}

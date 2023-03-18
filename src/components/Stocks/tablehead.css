@@ -1,0 +1,74 @@
+.tableHead {
+    border: 1px solid var(--color-bg);
+    border-bottom: none;
+    display: flex;
+    width: 100%;
+    height: 50px;
+
+}
+
+.table-main {
+    margin-top: 3em;
+    border-bottom: 1px solid var(--color-bg);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: .8em;
+}
+
+
+.tableHead .col-1 {
+    width: 10%;
+    border-right: 1px solid var(--color-bg);
+}
+
+.tableHead .col-2 {
+    width: 15%;
+    border-right: 1px solid var(--color-bg);
+}
+
+.tableHead .col-3 {
+    width: 25%;
+    border-right: 1px solid var(--color-bg);
+}
+
+.tableHead .col-4 {
+    width: 25%;
+    border-right: 1px solid var(--color-bg);
+}
+
+.tableHead .col-5 {
+    width: 25%;
+}
+
+.tableHead h2 {
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--color-bg);
+    text-align: center;
+}
+
+
+
+
+
+
+/* TABLE CONTENT */
+.tableContent {}
+
+
+/* TYPOGRAPHY */
+.tableHead .input-text {
+    background-color: transparent;
+    width: 90%;
+    color: var(--color-bg)
+}
+
+.tableHead .input-text::placeholder {
+    color: var(--color-bg);
+    opacity: .8;
+    font-size: .9rem;
+}

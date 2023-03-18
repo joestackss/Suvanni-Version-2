@@ -1,0 +1,108 @@
+/* CONTENT COL */
+.content-col {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.main {
+    width: 73%;
+}
+
+
+.aside-left {
+    width: 12%;
+    background-color: var(--color-bg-variant);
+    margin-top: 1em;
+    opacity: .1;
+}
+
+.aside-right {
+    width: 12%;
+    background-color: var(--color-bg);
+}
+
+.sec-1 {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg);
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+
+}
+
+
+
+.sec-3 {
+    min-height: fit-content;
+    margin: 3em 0;
+    color: var(--color-bg);
+    border-radius: 10px;
+    background-color: var(--color-bg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tablehead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* TYPOGRAPHY */
+
+.sec-3 h3 {
+    color: var(--color-white);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+
+.tablehead h5 {
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--color-bg);
+}
+
+.tableset {
+    background-color: var(--color-bg);
+}
+
+
+
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 1010px) {
+
+    .main {
+        width: 100%;
+    }
+
+
+    .aside-left {
+        display: none;
+    }
+
+    .aside-right {
+        display: none;
+    }
+
+    .sec-1 h1 {
+        font-size: 1.2rem;
+    }
+
+
+}
