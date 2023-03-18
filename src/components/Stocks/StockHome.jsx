@@ -1,7 +1,4 @@
 import React from "react";
-import Stocks from "../../pages/Stocks";
-import SelectedStocksTable from "../../pages/Stocks/SelectedTable";
-import MainTable from "../NewTable/MainTable";
 import StocksTable from "../NewTable/StocksTable";
 import "./stock.css";
 

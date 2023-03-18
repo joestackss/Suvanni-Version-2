@@ -2,7 +2,6 @@ import React, { useState, useEffect, useMemo } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebase/config";
 import { Pagination, Search, TableHeader } from "../DataTables";
-import { datafire } from "../../pages/Answers/datafire";
 
 const MainTable = ({ selectedStocks, onStockSelect }) => {
   // PAGINATION STATES

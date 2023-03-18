@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { AiFillDelete } from "react-icons/ai";
-import { MdDeleteOutline } from "react-icons/md";
 
 const SelectedTable = ({ selectedStocks, setSelectedStocks }) => {
   const [shareValues, setShareValues] = useState({});
